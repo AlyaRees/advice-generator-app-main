@@ -3,28 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <script defer scr="./script.js"></script>
+  <script defer src="./script.js"></script>
   <title>Advice generator app</title>
 
 </head>
 <body>
 
-  <main>
   <div class="advice-generator">
-    <div class="advice-generator__output"></div>
+    <div class="advice-generator__output">
+      <span class="advice-generator__advice-number">ADVICE #117</span>
+      <q class="advice-generator__quote">Don't put deformed bread in the toaster."</q>
+      <picture class="advice-generator__divider">
+        <source media="(min-width: 545px)"
+        srcset="./images/pattern-divider-desktop.svg">
+        <img scr="./images/pattern-divider-mobile.svg" alt="divider line">
+      </picture>
+    </div>
+
+    <button class="advice-generator__btn">
+      <img src="./images/icon-dice.svg" class="advice-generator__btn-img" alt="dice icon button image">
+    </button>
+
   </div>
 
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Alya Rees</a>.
   </div>
 </body>
-</main>
 </html>
