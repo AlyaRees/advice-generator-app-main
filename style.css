@@ -15,8 +15,6 @@
     --dark-blue: hsl(218, 23%, 16%);
 }
 
-
-
 body {
     background: var(--dark-blue);
     min-height: 100vh;
@@ -41,9 +39,7 @@ body {
     gap: 2.4rem;
     align-items: center;
     text-align: center;
-    border-radius: 2rem;
-    grid-row: 1/2;
-    grid-column: 1/2;
+    border-radius: 1.5rem;
 }
 
 .advice-generator__advice-number {
