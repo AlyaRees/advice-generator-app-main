@@ -41,6 +41,7 @@ body {
     gap: 2.4rem;
     align-items: center;
     text-align: center;
+    border-radius: 2rem;
     grid-row: 1/2;
     grid-column: 1/2;
 }
