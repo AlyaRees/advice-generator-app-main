@@ -48,19 +48,18 @@ body {
     color: var(--neon-green);
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 640px) {
     .advice-generator__output {
         margin: auto;
         width: 35rem;
-        font-size: 1rem;
         padding: 2.5rem 3rem 4rem;
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 640px) {
     .advice-generator__advice-number {
         letter-spacing: 0.2rem;
-        font-size: 1rem;
+        font-size: 0.9rem;
         line-height: 1.8rem;
     }
 }
